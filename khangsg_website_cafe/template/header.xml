@@ -12,18 +12,18 @@
                     <button class="navbar-toggle collapsed hamburger_button" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
                             aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
                             class="fas fa-bars fa-1x"></i></span></button>
-<!--                    <t t-if="not user_id._is_public()">-->
-<!--                        <p> User đăng nhập</p>-->
-<!--                    </t>-->
-<!--                    <t t-if="user_id._is_public()">-->
-<!--                        <p> User Public</p>-->
-<!--                    </t>-->
                 </div>
 
                 <div class="collapse navbar-collapse hamburger_menu_nav" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <t t-foreach="website.menu_id.child_id" t-as="submenu">
                             <li><a t-att-href="submenu.clean_url()"><t t-esc="submenu.name"/></a></li>
+                        </t>
+                        <t t-if="not user_id._is_public()">
+                            <li class="ksg_sign_out"><i class="fa fa-sign-out"></i><a href="/web/session/logout?redirect=/">Logout</a></li>
+                        </t>
+                        <t t-if="user_id._is_public()">
+                            <li class="ksg_sign_in"><i class="fa fa-user"></i><a href="/web/login">Login</a></li>
                         </t>
                     </ul>
                 </div>

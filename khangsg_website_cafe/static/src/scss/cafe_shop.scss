@@ -540,3 +540,13 @@ input[type='radio']:checked:after {
     display: inline-block;
     visibility: visible;
 }
+.ksg_sign_out,.ksg_sign_in{
+    background: gray !important;
+    i {
+        padding-right: 10px;
+    }
+}
+.tm-page-nav-item-logout,.tm-page-nav-item-login{
+    background: gray !important;
+    color: white !important;
+}

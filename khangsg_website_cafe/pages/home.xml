@@ -69,6 +69,18 @@
                                                     <span><i class="fa fa-expand"></i></span>
                                                 </a>
                                             </li>
+                                            <li t-if="user_id._is_public()" class="tm-page-nav-item">
+                                                <a href="/web/login" class="tm-page-link tm-page-nav-item-login" data="log_in_out">
+                                                    <i class="fa fa-user tm-page-link-icon"></i>
+                                                    <span>Login</span>
+                                                </a>
+                                            </li>
+                                            <li t-if="not user_id._is_public()" class="tm-page-nav-item">
+                                                <a href="/web/session/logout?redirect=/" class="tm-page-link tm-page-nav-item-logout" data="log_in_out">
+                                                    <i class="fa fa-sign-out tm-page-link-icon"></i>
+                                                    <span>Logout</span>
+                                                </a>
+                                            </li>
                                         </ul>
                                     </nav>
                                 </div>
