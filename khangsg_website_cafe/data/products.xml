@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="product_1" model="product.template">
+            <field name="name">Iced Americano</field>
+            <field name="categ_id" ref="khangsg_website_cafe.product_categ_iced_coffee"/>
+            <field name="description">Here is a short description for the first item. Wave Cafe Template is provided by Tooplate.</field>
+            <field name="list_price">10.25</field>
+            <field name="website_published">True</field>
+            <field name="image_1920" type="base64" file="khangsg_website_cafe/static/src/img/iced-americano.png"/>
+            <field name="website_description"><![CDATA[
+<section class="s_text_image pt32 pb32" data-name="Text - Image">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+                <h2 class="o_default_snippet_text">A Section Subtitle</h2>
+                <p class="o_default_snippet_text">Write one or two paragraphs describing your product or services. <br>To be successful your content needs to be useful to your readers.</p>
+                <p class="o_default_snippet_text">Start with the customer – find out what they want and give it to them.</p>
+                <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                    <a href="#" class="btn btn-primary o_default_snippet_text">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+                <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Text and Image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features pt32 pb32" data-name="Features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-gear rounded-circle bg-gamma m-3"></i>
+                <h3 class="o_default_snippet_text">First Feature</h3>
+                <p class="o_default_snippet_text">Tell what's the value for the <br>customer for this feature.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-photo rounded bg-epsilon m-3"></i>
+                <h3 class="o_default_snippet_text">Second Feature</h3>
+                <p class="o_default_snippet_text">Write what the customer would like to know, <br>not what you want to show.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-leaf rounded-leaf bg-primary m-3"></i>
+                <h3 class="o_default_snippet_text">Third Feature</h3>
+                <p class="o_default_snippet_text">A small explanation of this great <br>feature, in clear words.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_banner parallax s_parallax_is_fixed pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Banner" style="background-image: none;">
+    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;"></span>
+    <div class="container">
+        <div class="row s_nb_column_fixed">
+            <div class="col-lg-7 bg-white jumbotron rounded pt32 pb32" data-name="Box">
+                <div class="row">
+                    <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                        <h1 class="s_title_thin"><font style="font-size: 62px;" class="o_default_snippet_text"><b class="o_default_snippet_text">Sell Online.</b> Easily.</font></h1>
+                    </div>
+                    <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text">
+                        <p class="lead o_default_snippet_text">This is a simple hero unit, a simple jumbotron-style component <br>for calling extra attention to featured content or information.</p>
+                    </div>
+                    <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Button">
+                        <a href="#" class="btn btn-epsilon rounded-circle o_default_snippet_text">Do something</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features_grid pt48 pb24" data-name="Features Grid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">First list of Features</h2>
+                        <h5 class="text-primary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-font-awesome rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Change Icons</h4>
+                            <p class="o_default_snippet_text">Double click an icon to replace it with one of your choice.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-files-o rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Duplicate</h4>
+                            <p class="o_default_snippet_text">Duplicate blocks and columns to add more features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-trash rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Delete Blocks</h4>
+                            <p class="o_default_snippet_text">Select and delete blocks to remove some features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">Second list of Features</h2>
+                        <h5 class="text-secondary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-magic rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Great Value</h4>
+                            <p class="o_default_snippet_text">Turn every feature into a benefit for your reader.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-eyedropper rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Edit Styles</h4>
+                            <p class="o_default_snippet_text">You can edit colors and background to highlight features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-picture-o rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Sample Icons</h4>
+                            <p class="o_default_snippet_text">All these icons are completely free for commercial use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                ]]>
+            </field>
+        </record>
+        <record id="product_2" model="product.template">
+            <field name="name">Iced Cappuccino</field>
+            <field name="categ_id" ref="khangsg_website_cafe.product_categ_iced_coffee"/>
+            <field name="description">Here is a list of 4 items or add more. You can use this template for commercial purposes.</field>
+            <field name="list_price">12.50</field>
+            <field name="website_published">True</field>
+            <field name="image_1920" type="base64" file="khangsg_website_cafe/static/src/img/iced-cappuccino.png"/>
+            <field name="website_description"><![CDATA[
+<section class="s_text_image pt32 pb32" data-name="Text - Image">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+                <h2 class="o_default_snippet_text">A Section Subtitle</h2>
+                <p class="o_default_snippet_text">Write one or two paragraphs describing your product or services. <br>To be successful your content needs to be useful to your readers.</p>
+                <p class="o_default_snippet_text">Start with the customer – find out what they want and give it to them.</p>
+                <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                    <a href="#" class="btn btn-primary o_default_snippet_text">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+                <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Text and Image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features pt32 pb32" data-name="Features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-gear rounded-circle bg-gamma m-3"></i>
+                <h3 class="o_default_snippet_text">First Feature</h3>
+                <p class="o_default_snippet_text">Tell what's the value for the <br>customer for this feature.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-photo rounded bg-epsilon m-3"></i>
+                <h3 class="o_default_snippet_text">Second Feature</h3>
+                <p class="o_default_snippet_text">Write what the customer would like to know, <br>not what you want to show.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-leaf rounded-leaf bg-primary m-3"></i>
+                <h3 class="o_default_snippet_text">Third Feature</h3>
+                <p class="o_default_snippet_text">A small explanation of this great <br>feature, in clear words.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_banner parallax s_parallax_is_fixed pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Banner" style="background-image: none;">
+    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;"></span>
+    <div class="container">
+        <div class="row s_nb_column_fixed">
+            <div class="col-lg-7 bg-white jumbotron rounded pt32 pb32" data-name="Box">
+                <div class="row">
+                    <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                        <h1 class="s_title_thin"><font style="font-size: 62px;" class="o_default_snippet_text"><b class="o_default_snippet_text">Sell Online.</b> Easily.</font></h1>
+                    </div>
+                    <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text">
+                        <p class="lead o_default_snippet_text">This is a simple hero unit, a simple jumbotron-style component <br>for calling extra attention to featured content or information.</p>
+                    </div>
+                    <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Button">
+                        <a href="#" class="btn btn-epsilon rounded-circle o_default_snippet_text">Do something</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features_grid pt48 pb24" data-name="Features Grid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">First list of Features</h2>
+                        <h5 class="text-primary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-font-awesome rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Change Icons</h4>
+                            <p class="o_default_snippet_text">Double click an icon to replace it with one of your choice.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-files-o rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Duplicate</h4>
+                            <p class="o_default_snippet_text">Duplicate blocks and columns to add more features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-trash rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Delete Blocks</h4>
+                            <p class="o_default_snippet_text">Select and delete blocks to remove some features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">Second list of Features</h2>
+                        <h5 class="text-secondary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-magic rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Great Value</h4>
+                            <p class="o_default_snippet_text">Turn every feature into a benefit for your reader.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-eyedropper rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Edit Styles</h4>
+                            <p class="o_default_snippet_text">You can edit colors and background to highlight features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-picture-o rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Sample Icons</h4>
+                            <p class="o_default_snippet_text">All these icons are completely free for commercial use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                ]]>
+            </field>
+        </record>
+        <record id="product_3" model="product.template">
+            <field name="name">Iced Latte</field>
+            <field name="categ_id" ref="khangsg_website_cafe.product_categ_iced_coffee"/>
+            <field name="description">Contents are organized into 3 tabs.</field>
+            <field name="list_price">11.50</field>
+            <field name="website_published">True</field>
+            <field name="image_1920" type="base64" file="khangsg_website_cafe/static/src/img/iced-latte.png"/>
+            <field name="website_description"><![CDATA[
+<section class="s_text_image pt32 pb32" data-name="Text - Image">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+                <h2 class="o_default_snippet_text">A Section Subtitle</h2>
+                <p class="o_default_snippet_text">Write one or two paragraphs describing your product or services. <br>To be successful your content needs to be useful to your readers.</p>
+                <p class="o_default_snippet_text">Start with the customer – find out what they want and give it to them.</p>
+                <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                    <a href="#" class="btn btn-primary o_default_snippet_text">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+                <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Text and Image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features pt32 pb32" data-name="Features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-gear rounded-circle bg-gamma m-3"></i>
+                <h3 class="o_default_snippet_text">First Feature</h3>
+                <p class="o_default_snippet_text">Tell what's the value for the <br>customer for this feature.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-photo rounded bg-epsilon m-3"></i>
+                <h3 class="o_default_snippet_text">Second Feature</h3>
+                <p class="o_default_snippet_text">Write what the customer would like to know, <br>not what you want to show.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-leaf rounded-leaf bg-primary m-3"></i>
+                <h3 class="o_default_snippet_text">Third Feature</h3>
+                <p class="o_default_snippet_text">A small explanation of this great <br>feature, in clear words.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_banner parallax s_parallax_is_fixed pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Banner" style="background-image: none;">
+    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;"></span>
+    <div class="container">
+        <div class="row s_nb_column_fixed">
+            <div class="col-lg-7 bg-white jumbotron rounded pt32 pb32" data-name="Box">
+                <div class="row">
+                    <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                        <h1 class="s_title_thin"><font style="font-size: 62px;" class="o_default_snippet_text"><b class="o_default_snippet_text">Sell Online.</b> Easily.</font></h1>
+                    </div>
+                    <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text">
+                        <p class="lead o_default_snippet_text">This is a simple hero unit, a simple jumbotron-style component <br>for calling extra attention to featured content or information.</p>
+                    </div>
+                    <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Button">
+                        <a href="#" class="btn btn-epsilon rounded-circle o_default_snippet_text">Do something</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features_grid pt48 pb24" data-name="Features Grid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">First list of Features</h2>
+                        <h5 class="text-primary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-font-awesome rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Change Icons</h4>
+                            <p class="o_default_snippet_text">Double click an icon to replace it with one of your choice.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-files-o rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Duplicate</h4>
+                            <p class="o_default_snippet_text">Duplicate blocks and columns to add more features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-trash rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Delete Blocks</h4>
+                            <p class="o_default_snippet_text">Select and delete blocks to remove some features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">Second list of Features</h2>
+                        <h5 class="text-secondary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-magic rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Great Value</h4>
+                            <p class="o_default_snippet_text">Turn every feature into a benefit for your reader.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-eyedropper rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Edit Styles</h4>
+                            <p class="o_default_snippet_text">You can edit colors and background to highlight features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-picture-o rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Sample Icons</h4>
+                            <p class="o_default_snippet_text">All these icons are completely free for commercial use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                ]]>
+            </field>
+        </record>
+
+        <record id="product_4" model="product.template">
+            <field name="name">Hot Americano</field>
+            <field name="categ_id" ref="khangsg_website_cafe.product_categ_hot_coffee"/>
+            <field name="description">Here is a short description for the item along with a squared thumbnail.</field>
+            <field name="list_price">8.50</field>
+            <field name="website_published">True</field>
+            <field name="image_1920" type="base64" file="khangsg_website_cafe/static/src/img/hot-americano.png"/>
+            <field name="website_description"><![CDATA[
+<section class="s_text_image pt32 pb32" data-name="Text - Image">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+                <h2 class="o_default_snippet_text">A Section Subtitle</h2>
+                <p class="o_default_snippet_text">Write one or two paragraphs describing your product or services. <br>To be successful your content needs to be useful to your readers.</p>
+                <p class="o_default_snippet_text">Start with the customer – find out what they want and give it to them.</p>
+                <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                    <a href="#" class="btn btn-primary o_default_snippet_text">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+                <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Text and Image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features pt32 pb32" data-name="Features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-gear rounded-circle bg-gamma m-3"></i>
+                <h3 class="o_default_snippet_text">First Feature</h3>
+                <p class="o_default_snippet_text">Tell what's the value for the <br>customer for this feature.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-photo rounded bg-epsilon m-3"></i>
+                <h3 class="o_default_snippet_text">Second Feature</h3>
+                <p class="o_default_snippet_text">Write what the customer would like to know, <br>not what you want to show.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-leaf rounded-leaf bg-primary m-3"></i>
+                <h3 class="o_default_snippet_text">Third Feature</h3>
+                <p class="o_default_snippet_text">A small explanation of this great <br>feature, in clear words.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_banner parallax s_parallax_is_fixed pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Banner" style="background-image: none;">
+    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;"></span>
+    <div class="container">
+        <div class="row s_nb_column_fixed">
+            <div class="col-lg-7 bg-white jumbotron rounded pt32 pb32" data-name="Box">
+                <div class="row">
+                    <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                        <h1 class="s_title_thin"><font style="font-size: 62px;" class="o_default_snippet_text"><b class="o_default_snippet_text">Sell Online.</b> Easily.</font></h1>
+                    </div>
+                    <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text">
+                        <p class="lead o_default_snippet_text">This is a simple hero unit, a simple jumbotron-style component <br>for calling extra attention to featured content or information.</p>
+                    </div>
+                    <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Button">
+                        <a href="#" class="btn btn-epsilon rounded-circle o_default_snippet_text">Do something</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features_grid pt48 pb24" data-name="Features Grid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">First list of Features</h2>
+                        <h5 class="text-primary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-font-awesome rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Change Icons</h4>
+                            <p class="o_default_snippet_text">Double click an icon to replace it with one of your choice.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-files-o rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Duplicate</h4>
+                            <p class="o_default_snippet_text">Duplicate blocks and columns to add more features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-trash rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Delete Blocks</h4>
+                            <p class="o_default_snippet_text">Select and delete blocks to remove some features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">Second list of Features</h2>
+                        <h5 class="text-secondary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-magic rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Great Value</h4>
+                            <p class="o_default_snippet_text">Turn every feature into a benefit for your reader.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-eyedropper rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Edit Styles</h4>
+                            <p class="o_default_snippet_text">You can edit colors and background to highlight features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-picture-o rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Sample Icons</h4>
+                            <p class="o_default_snippet_text">All these icons are completely free for commercial use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                ]]>
+            </field>
+        </record>
+        <record id="product_5" model="product.template">
+            <field name="name">Hot Cappuccino</field>
+            <field name="categ_id" ref="khangsg_website_cafe.product_categ_hot_coffee"/>
+            <field name="description">Here is a list of 4 items that can add more as you need. Only content area will be scrolling.</field>
+            <field name="list_price">9.50</field>
+            <field name="website_published">True</field>
+            <field name="image_1920" type="base64" file="khangsg_website_cafe/static/src/img/hot-cappuccino.png"/>
+            <field name="website_description"><![CDATA[
+<section class="s_text_image pt32 pb32" data-name="Text - Image">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+                <h2 class="o_default_snippet_text">A Section Subtitle</h2>
+                <p class="o_default_snippet_text">Write one or two paragraphs describing your product or services. <br>To be successful your content needs to be useful to your readers.</p>
+                <p class="o_default_snippet_text">Start with the customer – find out what they want and give it to them.</p>
+                <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                    <a href="#" class="btn btn-primary o_default_snippet_text">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+                <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Text and Image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features pt32 pb32" data-name="Features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-gear rounded-circle bg-gamma m-3"></i>
+                <h3 class="o_default_snippet_text">First Feature</h3>
+                <p class="o_default_snippet_text">Tell what's the value for the <br>customer for this feature.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-photo rounded bg-epsilon m-3"></i>
+                <h3 class="o_default_snippet_text">Second Feature</h3>
+                <p class="o_default_snippet_text">Write what the customer would like to know, <br>not what you want to show.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-leaf rounded-leaf bg-primary m-3"></i>
+                <h3 class="o_default_snippet_text">Third Feature</h3>
+                <p class="o_default_snippet_text">A small explanation of this great <br>feature, in clear words.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_banner parallax s_parallax_is_fixed pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Banner" style="background-image: none;">
+    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;"></span>
+    <div class="container">
+        <div class="row s_nb_column_fixed">
+            <div class="col-lg-7 bg-white jumbotron rounded pt32 pb32" data-name="Box">
+                <div class="row">
+                    <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                        <h1 class="s_title_thin"><font style="font-size: 62px;" class="o_default_snippet_text"><b class="o_default_snippet_text">Sell Online.</b> Easily.</font></h1>
+                    </div>
+                    <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text">
+                        <p class="lead o_default_snippet_text">This is a simple hero unit, a simple jumbotron-style component <br>for calling extra attention to featured content or information.</p>
+                    </div>
+                    <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Button">
+                        <a href="#" class="btn btn-epsilon rounded-circle o_default_snippet_text">Do something</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features_grid pt48 pb24" data-name="Features Grid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">First list of Features</h2>
+                        <h5 class="text-primary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-font-awesome rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Change Icons</h4>
+                            <p class="o_default_snippet_text">Double click an icon to replace it with one of your choice.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-files-o rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Duplicate</h4>
+                            <p class="o_default_snippet_text">Duplicate blocks and columns to add more features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-trash rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Delete Blocks</h4>
+                            <p class="o_default_snippet_text">Select and delete blocks to remove some features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">Second list of Features</h2>
+                        <h5 class="text-secondary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-magic rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Great Value</h4>
+                            <p class="o_default_snippet_text">Turn every feature into a benefit for your reader.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-eyedropper rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Edit Styles</h4>
+                            <p class="o_default_snippet_text">You can edit colors and background to highlight features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-picture-o rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Sample Icons</h4>
+                            <p class="o_default_snippet_text">All these icons are completely free for commercial use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                ]]>
+            </field>
+        </record>
+        <record id="product_6" model="product.template">
+            <field name="name">Hot Espresso</field>
+            <field name="categ_id" ref="khangsg_website_cafe.product_categ_hot_coffee"/>
+            <field name="description">Here is a list of 4 items that can add more as you need. Only content area will be scrolling.</field>
+            <field name="list_price">7.50</field>
+            <field name="website_published">True</field>
+            <field name="image_1920" type="base64" file="khangsg_website_cafe/static/src/img/hot-espresso.png"/>
+            <field name="website_description"><![CDATA[
+<section class="s_text_image pt32 pb32" data-name="Text - Image">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+                <h2 class="o_default_snippet_text">A Section Subtitle</h2>
+                <p class="o_default_snippet_text">Write one or two paragraphs describing your product or services. <br>To be successful your content needs to be useful to your readers.</p>
+                <p class="o_default_snippet_text">Start with the customer – find out what they want and give it to them.</p>
+                <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                    <a href="#" class="btn btn-primary o_default_snippet_text">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+                <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Text and Image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features pt32 pb32" data-name="Features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-gear rounded-circle bg-gamma m-3"></i>
+                <h3 class="o_default_snippet_text">First Feature</h3>
+                <p class="o_default_snippet_text">Tell what's the value for the <br>customer for this feature.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-photo rounded bg-epsilon m-3"></i>
+                <h3 class="o_default_snippet_text">Second Feature</h3>
+                <p class="o_default_snippet_text">Write what the customer would like to know, <br>not what you want to show.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-leaf rounded-leaf bg-primary m-3"></i>
+                <h3 class="o_default_snippet_text">Third Feature</h3>
+                <p class="o_default_snippet_text">A small explanation of this great <br>feature, in clear words.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_banner parallax s_parallax_is_fixed pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Banner" style="background-image: none;">
+    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;"></span>
+    <div class="container">
+        <div class="row s_nb_column_fixed">
+            <div class="col-lg-7 bg-white jumbotron rounded pt32 pb32" data-name="Box">
+                <div class="row">
+                    <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                        <h1 class="s_title_thin"><font style="font-size: 62px;" class="o_default_snippet_text"><b class="o_default_snippet_text">Sell Online.</b> Easily.</font></h1>
+                    </div>
+                    <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text">
+                        <p class="lead o_default_snippet_text">This is a simple hero unit, a simple jumbotron-style component <br>for calling extra attention to featured content or information.</p>
+                    </div>
+                    <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Button">
+                        <a href="#" class="btn btn-epsilon rounded-circle o_default_snippet_text">Do something</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features_grid pt48 pb24" data-name="Features Grid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">First list of Features</h2>
+                        <h5 class="text-primary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-font-awesome rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Change Icons</h4>
+                            <p class="o_default_snippet_text">Double click an icon to replace it with one of your choice.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-files-o rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Duplicate</h4>
+                            <p class="o_default_snippet_text">Duplicate blocks and columns to add more features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-trash rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Delete Blocks</h4>
+                            <p class="o_default_snippet_text">Select and delete blocks to remove some features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">Second list of Features</h2>
+                        <h5 class="text-secondary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-magic rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Great Value</h4>
+                            <p class="o_default_snippet_text">Turn every feature into a benefit for your reader.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-eyedropper rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Edit Styles</h4>
+                            <p class="o_default_snippet_text">You can edit colors and background to highlight features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-picture-o rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Sample Icons</h4>
+                            <p class="o_default_snippet_text">All these icons are completely free for commercial use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                ]]>
+            </field>
+        </record>
+        <record id="product_7" model="product.template">
+            <field name="name">Hot Latte</field>
+            <field name="categ_id" ref="khangsg_website_cafe.product_categ_hot_coffee"/>
+            <field name="description">Page contents are organized into 3 tabs to show different lists of items.</field>
+            <field name="list_price">7.50</field>
+            <field name="website_published">True</field>
+            <field name="image_1920" type="base64" file="khangsg_website_cafe/static/src/img/hot-latte.png"/>
+            <field name="website_description"><![CDATA[
+<section class="s_text_image pt32 pb32" data-name="Text - Image">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+                <h2 class="o_default_snippet_text">A Section Subtitle</h2>
+                <p class="o_default_snippet_text">Write one or two paragraphs describing your product or services. <br>To be successful your content needs to be useful to your readers.</p>
+                <p class="o_default_snippet_text">Start with the customer – find out what they want and give it to them.</p>
+                <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                    <a href="#" class="btn btn-primary o_default_snippet_text">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+                <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Text and Image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features pt32 pb32" data-name="Features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-gear rounded-circle bg-gamma m-3"></i>
+                <h3 class="o_default_snippet_text">First Feature</h3>
+                <p class="o_default_snippet_text">Tell what's the value for the <br>customer for this feature.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-photo rounded bg-epsilon m-3"></i>
+                <h3 class="o_default_snippet_text">Second Feature</h3>
+                <p class="o_default_snippet_text">Write what the customer would like to know, <br>not what you want to show.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-leaf rounded-leaf bg-primary m-3"></i>
+                <h3 class="o_default_snippet_text">Third Feature</h3>
+                <p class="o_default_snippet_text">A small explanation of this great <br>feature, in clear words.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_banner parallax s_parallax_is_fixed pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Banner" style="background-image: none;">
+    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;"></span>
+    <div class="container">
+        <div class="row s_nb_column_fixed">
+            <div class="col-lg-7 bg-white jumbotron rounded pt32 pb32" data-name="Box">
+                <div class="row">
+                    <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                        <h1 class="s_title_thin"><font style="font-size: 62px;" class="o_default_snippet_text"><b class="o_default_snippet_text">Sell Online.</b> Easily.</font></h1>
+                    </div>
+                    <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text">
+                        <p class="lead o_default_snippet_text">This is a simple hero unit, a simple jumbotron-style component <br>for calling extra attention to featured content or information.</p>
+                    </div>
+                    <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Button">
+                        <a href="#" class="btn btn-epsilon rounded-circle o_default_snippet_text">Do something</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features_grid pt48 pb24" data-name="Features Grid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">First list of Features</h2>
+                        <h5 class="text-primary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-font-awesome rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Change Icons</h4>
+                            <p class="o_default_snippet_text">Double click an icon to replace it with one of your choice.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-files-o rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Duplicate</h4>
+                            <p class="o_default_snippet_text">Duplicate blocks and columns to add more features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-trash rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Delete Blocks</h4>
+                            <p class="o_default_snippet_text">Select and delete blocks to remove some features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">Second list of Features</h2>
+                        <h5 class="text-secondary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-magic rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Great Value</h4>
+                            <p class="o_default_snippet_text">Turn every feature into a benefit for your reader.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-eyedropper rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Edit Styles</h4>
+                            <p class="o_default_snippet_text">You can edit colors and background to highlight features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-picture-o rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Sample Icons</h4>
+                            <p class="o_default_snippet_text">All these icons are completely free for commercial use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                ]]>
+            </field>
+        </record>
+
+        <record id="product_8" model="product.template">
+            <field name="name">Strawberry Smoothie</field>
+            <field name="categ_id" ref="khangsg_website_cafe.product_categ_iced_fruit_juice"/>
+            <field name="description">Here is a short description for the item along with a squared thumbnail.</field>
+            <field name="list_price">12.50</field>
+            <field name="website_published">True</field>
+            <field name="image_1920" type="base64" file="khangsg_website_cafe/static/src/img/smoothie-1.png"/>
+            <field name="website_description"><![CDATA[
+<section class="s_text_image pt32 pb32" data-name="Text - Image">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+                <h2 class="o_default_snippet_text">A Section Subtitle</h2>
+                <p class="o_default_snippet_text">Write one or two paragraphs describing your product or services. <br>To be successful your content needs to be useful to your readers.</p>
+                <p class="o_default_snippet_text">Start with the customer – find out what they want and give it to them.</p>
+                <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                    <a href="#" class="btn btn-primary o_default_snippet_text">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+                <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Text and Image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features pt32 pb32" data-name="Features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-gear rounded-circle bg-gamma m-3"></i>
+                <h3 class="o_default_snippet_text">First Feature</h3>
+                <p class="o_default_snippet_text">Tell what's the value for the <br>customer for this feature.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-photo rounded bg-epsilon m-3"></i>
+                <h3 class="o_default_snippet_text">Second Feature</h3>
+                <p class="o_default_snippet_text">Write what the customer would like to know, <br>not what you want to show.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-leaf rounded-leaf bg-primary m-3"></i>
+                <h3 class="o_default_snippet_text">Third Feature</h3>
+                <p class="o_default_snippet_text">A small explanation of this great <br>feature, in clear words.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_banner parallax s_parallax_is_fixed pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Banner" style="background-image: none;">
+    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;"></span>
+    <div class="container">
+        <div class="row s_nb_column_fixed">
+            <div class="col-lg-7 bg-white jumbotron rounded pt32 pb32" data-name="Box">
+                <div class="row">
+                    <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                        <h1 class="s_title_thin"><font style="font-size: 62px;" class="o_default_snippet_text"><b class="o_default_snippet_text">Sell Online.</b> Easily.</font></h1>
+                    </div>
+                    <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text">
+                        <p class="lead o_default_snippet_text">This is a simple hero unit, a simple jumbotron-style component <br>for calling extra attention to featured content or information.</p>
+                    </div>
+                    <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Button">
+                        <a href="#" class="btn btn-epsilon rounded-circle o_default_snippet_text">Do something</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features_grid pt48 pb24" data-name="Features Grid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">First list of Features</h2>
+                        <h5 class="text-primary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-font-awesome rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Change Icons</h4>
+                            <p class="o_default_snippet_text">Double click an icon to replace it with one of your choice.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-files-o rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Duplicate</h4>
+                            <p class="o_default_snippet_text">Duplicate blocks and columns to add more features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-trash rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Delete Blocks</h4>
+                            <p class="o_default_snippet_text">Select and delete blocks to remove some features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">Second list of Features</h2>
+                        <h5 class="text-secondary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-magic rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Great Value</h4>
+                            <p class="o_default_snippet_text">Turn every feature into a benefit for your reader.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-eyedropper rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Edit Styles</h4>
+                            <p class="o_default_snippet_text">You can edit colors and background to highlight features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-picture-o rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Sample Icons</h4>
+                            <p class="o_default_snippet_text">All these icons are completely free for commercial use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                ]]>
+            </field>
+        </record>
+        <record id="product_9" model="product.template">
+            <field name="name">Red Berry Smoothie</field>
+            <field name="categ_id" ref="khangsg_website_cafe.product_categ_iced_fruit_juice"/>
+            <field name="description">Here is a short description for the item along with a squared thumbnail.</field>
+            <field name="list_price">11.50</field>
+            <field name="website_published">True</field>
+            <field name="image_1920" type="base64" file="khangsg_website_cafe/static/src/img/smoothie-2.png"/>
+            <field name="website_description"><![CDATA[
+<section class="s_text_image pt32 pb32" data-name="Text - Image">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+                <h2 class="o_default_snippet_text">A Section Subtitle</h2>
+                <p class="o_default_snippet_text">Write one or two paragraphs describing your product or services. <br>To be successful your content needs to be useful to your readers.</p>
+                <p class="o_default_snippet_text">Start with the customer – find out what they want and give it to them.</p>
+                <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                    <a href="#" class="btn btn-primary o_default_snippet_text">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+                <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Text and Image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features pt32 pb32" data-name="Features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-gear rounded-circle bg-gamma m-3"></i>
+                <h3 class="o_default_snippet_text">First Feature</h3>
+                <p class="o_default_snippet_text">Tell what's the value for the <br>customer for this feature.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-photo rounded bg-epsilon m-3"></i>
+                <h3 class="o_default_snippet_text">Second Feature</h3>
+                <p class="o_default_snippet_text">Write what the customer would like to know, <br>not what you want to show.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-leaf rounded-leaf bg-primary m-3"></i>
+                <h3 class="o_default_snippet_text">Third Feature</h3>
+                <p class="o_default_snippet_text">A small explanation of this great <br>feature, in clear words.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_banner parallax s_parallax_is_fixed pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Banner" style="background-image: none;">
+    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;"></span>
+    <div class="container">
+        <div class="row s_nb_column_fixed">
+            <div class="col-lg-7 bg-white jumbotron rounded pt32 pb32" data-name="Box">
+                <div class="row">
+                    <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                        <h1 class="s_title_thin"><font style="font-size: 62px;" class="o_default_snippet_text"><b class="o_default_snippet_text">Sell Online.</b> Easily.</font></h1>
+                    </div>
+                    <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text">
+                        <p class="lead o_default_snippet_text">This is a simple hero unit, a simple jumbotron-style component <br>for calling extra attention to featured content or information.</p>
+                    </div>
+                    <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Button">
+                        <a href="#" class="btn btn-epsilon rounded-circle o_default_snippet_text">Do something</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features_grid pt48 pb24" data-name="Features Grid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">First list of Features</h2>
+                        <h5 class="text-primary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-font-awesome rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Change Icons</h4>
+                            <p class="o_default_snippet_text">Double click an icon to replace it with one of your choice.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-files-o rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Duplicate</h4>
+                            <p class="o_default_snippet_text">Duplicate blocks and columns to add more features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-trash rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Delete Blocks</h4>
+                            <p class="o_default_snippet_text">Select and delete blocks to remove some features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">Second list of Features</h2>
+                        <h5 class="text-secondary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-magic rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Great Value</h4>
+                            <p class="o_default_snippet_text">Turn every feature into a benefit for your reader.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-eyedropper rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Edit Styles</h4>
+                            <p class="o_default_snippet_text">You can edit colors and background to highlight features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-picture-o rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Sample Icons</h4>
+                            <p class="o_default_snippet_text">All these icons are completely free for commercial use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                ]]>
+            </field>
+        </record>
+        <record id="product_10" model="product.template">
+            <field name="name">Pineapple Smoothie</field>
+            <field name="categ_id" ref="khangsg_website_cafe.product_categ_iced_fruit_juice"/>
+            <field name="description">Here is a short description for the item along with a squared thumbnail.</field>
+            <field name="list_price">12.25</field>
+            <field name="website_published">True</field>
+            <field name="image_1920" type="base64" file="khangsg_website_cafe/static/src/img/smoothie-3.png"/>
+            <field name="website_description"><![CDATA[
+<section class="s_text_image pt32 pb32" data-name="Text - Image">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+                <h2 class="o_default_snippet_text">A Section Subtitle</h2>
+                <p class="o_default_snippet_text">Write one or two paragraphs describing your product or services. <br>To be successful your content needs to be useful to your readers.</p>
+                <p class="o_default_snippet_text">Start with the customer – find out what they want and give it to them.</p>
+                <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                    <a href="#" class="btn btn-primary o_default_snippet_text">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+                <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Text and Image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features pt32 pb32" data-name="Features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-gear rounded-circle bg-gamma m-3"></i>
+                <h3 class="o_default_snippet_text">First Feature</h3>
+                <p class="o_default_snippet_text">Tell what's the value for the <br>customer for this feature.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-photo rounded bg-epsilon m-3"></i>
+                <h3 class="o_default_snippet_text">Second Feature</h3>
+                <p class="o_default_snippet_text">Write what the customer would like to know, <br>not what you want to show.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-leaf rounded-leaf bg-primary m-3"></i>
+                <h3 class="o_default_snippet_text">Third Feature</h3>
+                <p class="o_default_snippet_text">A small explanation of this great <br>feature, in clear words.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_banner parallax s_parallax_is_fixed pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Banner" style="background-image: none;">
+    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;"></span>
+    <div class="container">
+        <div class="row s_nb_column_fixed">
+            <div class="col-lg-7 bg-white jumbotron rounded pt32 pb32" data-name="Box">
+                <div class="row">
+                    <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                        <h1 class="s_title_thin"><font style="font-size: 62px;" class="o_default_snippet_text"><b class="o_default_snippet_text">Sell Online.</b> Easily.</font></h1>
+                    </div>
+                    <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text">
+                        <p class="lead o_default_snippet_text">This is a simple hero unit, a simple jumbotron-style component <br>for calling extra attention to featured content or information.</p>
+                    </div>
+                    <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Button">
+                        <a href="#" class="btn btn-epsilon rounded-circle o_default_snippet_text">Do something</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features_grid pt48 pb24" data-name="Features Grid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">First list of Features</h2>
+                        <h5 class="text-primary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-font-awesome rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Change Icons</h4>
+                            <p class="o_default_snippet_text">Double click an icon to replace it with one of your choice.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-files-o rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Duplicate</h4>
+                            <p class="o_default_snippet_text">Duplicate blocks and columns to add more features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-trash rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Delete Blocks</h4>
+                            <p class="o_default_snippet_text">Select and delete blocks to remove some features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">Second list of Features</h2>
+                        <h5 class="text-secondary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-magic rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Great Value</h4>
+                            <p class="o_default_snippet_text">Turn every feature into a benefit for your reader.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-eyedropper rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Edit Styles</h4>
+                            <p class="o_default_snippet_text">You can edit colors and background to highlight features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-picture-o rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Sample Icons</h4>
+                            <p class="o_default_snippet_text">All these icons are completely free for commercial use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                ]]>
+            </field>
+        </record>
+        <record id="product_11" model="product.template">
+            <field name="name">Spinach Smoothie</field>
+            <field name="categ_id" ref="khangsg_website_cafe.product_categ_iced_fruit_juice"/>
+            <field name="description">Here is a short description for the item along with a squared thumbnail.</field>
+            <field name="list_price">2.20</field>
+            <field name="website_published">True</field>
+            <field name="image_1920" type="base64" file="khangsg_website_cafe/static/src/img/smoothie-4.png"/>
+            <field name="website_description"><![CDATA[
+<section class="s_text_image pt32 pb32" data-name="Text - Image">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+                <h2 class="o_default_snippet_text">A Section Subtitle</h2>
+                <p class="o_default_snippet_text">Write one or two paragraphs describing your product or services. <br>To be successful your content needs to be useful to your readers.</p>
+                <p class="o_default_snippet_text">Start with the customer – find out what they want and give it to them.</p>
+                <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                    <a href="#" class="btn btn-primary o_default_snippet_text">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+                <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Text and Image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features pt32 pb32" data-name="Features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-gear rounded-circle bg-gamma m-3"></i>
+                <h3 class="o_default_snippet_text">First Feature</h3>
+                <p class="o_default_snippet_text">Tell what's the value for the <br>customer for this feature.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-photo rounded bg-epsilon m-3"></i>
+                <h3 class="o_default_snippet_text">Second Feature</h3>
+                <p class="o_default_snippet_text">Write what the customer would like to know, <br>not what you want to show.</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center">
+                <i class="fa fa-3x fa-leaf rounded-leaf bg-primary m-3"></i>
+                <h3 class="o_default_snippet_text">Third Feature</h3>
+                <p class="o_default_snippet_text">A small explanation of this great <br>feature, in clear words.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_banner parallax s_parallax_is_fixed pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Banner" style="background-image: none;">
+    <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;"></span>
+    <div class="container">
+        <div class="row s_nb_column_fixed">
+            <div class="col-lg-7 bg-white jumbotron rounded pt32 pb32" data-name="Box">
+                <div class="row">
+                    <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                        <h1 class="s_title_thin"><font style="font-size: 62px;" class="o_default_snippet_text"><b class="o_default_snippet_text">Sell Online.</b> Easily.</font></h1>
+                    </div>
+                    <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text">
+                        <p class="lead o_default_snippet_text">This is a simple hero unit, a simple jumbotron-style component <br>for calling extra attention to featured content or information.</p>
+                    </div>
+                    <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Button">
+                        <a href="#" class="btn btn-epsilon rounded-circle o_default_snippet_text">Do something</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="s_features_grid pt48 pb24" data-name="Features Grid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">First list of Features</h2>
+                        <h5 class="text-primary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-font-awesome rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Change Icons</h4>
+                            <p class="o_default_snippet_text">Double click an icon to replace it with one of your choice.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-files-o rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Duplicate</h4>
+                            <p class="o_default_snippet_text">Duplicate blocks and columns to add more features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-trash rounded-circle bg-primary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Delete Blocks</h4>
+                            <p class="o_default_snippet_text">Select and delete blocks to remove some features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                <div class="row">
+                    <div class="col-lg-12 pb24" data-name="Box">
+                        <h2 class="o_default_snippet_text">Second list of Features</h2>
+                        <h5 class="text-secondary o_default_snippet_text">Add a great slogan.</h5>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-magic rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Great Value</h4>
+                            <p class="o_default_snippet_text">Turn every feature into a benefit for your reader.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-eyedropper rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Edit Styles</h4>
+                            <p class="o_default_snippet_text">You can edit colors and background to highlight features.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt16 pb16" data-name="Box">
+                        <i class="fa fa-2x fa-picture-o rounded bg-secondary s_features_grid_icon"></i>
+                        <div class="s_features_grid_content">
+                            <h4 class="o_default_snippet_text">Sample Icons</h4>
+                            <p class="o_default_snippet_text">All these icons are completely free for commercial use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                ]]>
+            </field>
+        </record>
+    </data>
+</odoo>
