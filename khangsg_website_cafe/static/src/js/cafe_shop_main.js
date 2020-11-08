@@ -173,12 +173,14 @@ $(document).ready(function() {
 
     $('.tm-page-link').click(function(event) {
 
-        if (window.innerWidth > 991) {
-            event.preventDefault();
-        }
+        if ($(event.currentTarget).attr('data') != 'log_in_out'){
+            if (window.innerWidth > 991) {
+                event.preventDefault();
+            }
 
-        highlightMenu($(event.currentTarget));
-        showPage($(event.currentTarget.hash));
+            highlightMenu($(event.currentTarget));
+            showPage($(event.currentTarget.hash));
+        }
     });
 
 
