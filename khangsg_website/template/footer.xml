@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-    <template id="khangsg_footer_layout" name="KhangSG Footer Layout" inherit_id="website.layout">
-        <xpath expr="//footer" position="replace">
-
-        </xpath>
-    </template>
-</odoo>
