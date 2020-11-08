@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+<t t-name="ksg_website.product_detail">
+    <div class="tm-black-bg tm-product-item-detail">
+        <img t-attf-src="/web/image/product.template/#{product['id']}/image_1920" alt="Image" class="tm-list-item-img"/>
+        <a class="expand_detail" t-attf-href="/shop/product/#{product['id']}"><i class="fa fa-expand"></i></a>
+        <div class="tm-list-item-text">
+            <h5 class="tm-list-item-name"><t t-esc="product['name']"/><span class="tm-list-item-price">$<t t-esc="product['list_price']"/></span></h5>
+            <p class="tm-list-item-description"><t t-esc="product['description']"/></p>
+        </div>
+        <div class="tm-list-item-html" t-if="product['website_description']">
+            <t t-raw="product['website_description']"/>
+        </div>
+    </div>
+</t>
+</templates>

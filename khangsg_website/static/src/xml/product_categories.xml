@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+<ul t-name="ksg_website.product_categories">
+    <li>
+        <a href="javascript:;" class="tm-tab-link category-item active" data-id="all">
+            All
+        </a>
+    </li>
+    <t t-foreach="categories" t-as="category">
+        <li>
+            <a href="javascript:;" class="tm-tab-link category-item" t-attf-data-id="#{category['id']}">
+                <t t-esc="category['name']"/>
+            </a>
+        </li>
+    </t>
+</ul>
+</templates>
