@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="website.homepage" model="ir.ui.view">
+        <field name="name">KSG Home</field>
+        <field name="type">qweb</field>
+        <field name="key">website.homepage</field>
+        <field name="arch" type="xml">
+            <t name="Home" t-name="website.homepage">
+                <t t-call="website.layout">
+                    <div class="tm-container">
+                        <div class="tm-row">
+                            <!-- Site Header -->
+                            <div class="tm-left">
+                                <div class="tm-left-inner">
+                                    <div class="tm-site-header">
+                                        <a href="/">
+                                            <i class="fas fa-coffee fa-3x tm-site-logo"></i>
+                                            <h1 class="tm-site-name"><t t-esc="res_company.name"/></h1>
+                                        </a>
+                                    </div>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <div class="custom-control custom-radio">
+                                                    <input checked="" type="radio" id="product_item" name="search_option" value="product_item"/>
+                                                    <label for="male">Product</label>
+                                                    <input type="radio" id="blog" name="search_option" value="blog"/>
+                                                    <label for="blog">Blog</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <input type="text" class="form-control search_input" placeholder="Search product or blog ...   "/>
+                                    </div>
+                                    <nav class="tm-site-nav">
+                                        <ul class="tm-site-nav-ul">
+                                            <li class="tm-page-nav-item">
+                                                <a href="#products" class="tm-page-link active product_menu">
+                                                    <i class="fas fa-mug-hot tm-page-link-icon"></i>
+                                                    <span>Products</span>
+                                                </a>
+                                                <a href="/shop" class="link-detail">
+                                                    <span><i class="fa fa-expand"></i></span>
+                                                </a>
+                                            </li>
+                                            <li class="tm-page-nav-item">
+                                                <a href="#about" class="tm-page-link about_us_menu">
+                                                    <i class="fas fa-users tm-page-link-icon"></i>
+                                                    <span>About Us</span>
+                                                </a>
+                                                <a href="/aboutus" class="link-detail">
+                                                    <span><i class="fa fa-expand"></i></span>
+                                                </a>
+                                            </li>
+                                            <li class="tm-page-nav-item">
+                                                <a href="#blog_post" class="tm-page-link blog_post_menu">
+                                                    <i class="fas fa-glass-martini tm-page-link-icon"></i>
+                                                    <span>Blogs</span>
+                                                </a>
+                                                <a href="/blog" class="link-detail">
+                                                    <span><i class="fa fa-expand"></i></span>
+                                                </a>
+                                            </li>
+                                            <li class="tm-page-nav-item">
+                                                <a href="#contact" class="tm-page-link">
+                                                    <i class="fas fa-comments tm-page-link-icon"></i>
+                                                    <span>Contact</span>
+                                                </a>
+                                                <a href="/contactus" class="link-detail">
+                                                    <span><i class="fa fa-expand"></i></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="tm-right">
+                                <main class="tm-main">
+                                    <div id="products" class="tm-page-content">
+                                        <!-- Product Items -->
+                                        <nav class="tm-categories tm-black-bg tm-drinks-nav">
+
+                                        </nav>
+
+                                        <div class="tm-product-list tm-tab-content">
+
+                                        </div>
+                                    </div>
+
+                                    <!-- About Us Page -->
+                                    <div id="about" class="tm-page-content">
+                                        <div class="tm-black-bg tm-mb-20 tm-about-box-1">
+                                            <h2 class="tm-text-primary tm-about-header">About Wave Cafe</h2>
+                                            <div class="tm-list-item tm-list-item-2">
+                                                <img src="/khangsg_website_cafe/static/src/img/about-1.png" alt="Image" class="tm-list-item-img tm-list-item-img-big"/>
+                                                <div class="tm-list-item-text-2">
+                                                    <p>Wave Cafe is a one-page video background HTML CSS template from Tooplate. You can use this for your business websites.</p>
+                                                    <p>You can also use this for your client websites which you get paid for your website services. Please tell your friends about us.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tm-black-bg tm-mb-20 tm-about-box-2">
+                                            <div class="tm-list-item tm-list-item-2">
+                                                <div class="tm-list-item-text-2">
+                                                    <h2 class="tm-text-primary">How we began</h2>
+                                                    <p>If you wish to support us, please contact Tooplate. Thank you. Duis bibendum erat nec ipsum consectetur sodales.</p>
+                                                </div>
+                                                <img src="/khangsg_website_cafe/static/src/img/about-2.png" alt="Image" class="tm-list-item-img tm-list-item-img-big tm-img-right"/>
+                                            </div>
+                                            <p>Donec non urna elit. Quisque ut magna in dui mattis iaculis eu finibus metus. Suspendisse vel mi a lacus finibus vehicula vel ut diam. Nam pellentesque, mi quis ullamcorper.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end About Us Page -->
+
+                                    <!-- Blogs -->
+                                    <div id="blog_post" class="tm-page-content">
+                                        <nav class="blog-categories tm-black-bg tm-drinks-nav">
+
+                                        </nav>
+                                        <div class="tm-special-items">
+
+                                        </div>
+                                    </div>
+
+                                    <!-- Contact Page -->
+                                    <div id="contact" class="tm-page-content">
+                                        <div class="tm-black-bg tm-contact-text-container">
+                                            <h2 class="tm-text-primary">Contact Wave</h2>
+                                            <p>Wave Cafe Template has a video background. You can use this layout for your websites. Please contact Tooplate's Facebook page. Tell your friends about our website.</p>
+                                        </div>
+                                        <div class="tm-black-bg tm-contact-form-container tm-align-right">
+                                            <form id="contactus_form" t-ignore="true" action="/website_form/" method="post" data-model_name="mail.mail" class="s_website_form container-fluid mt32" enctype="multipart/form-data" data-success_page="/contactus-thank-you">
+                                                <div class="form-group row form-field o_website_form_custom o_website_form_required_custom">
+                                                    <div class="col-lg-3 col-md-4">
+                                                        <label class="col-form-label" for="Name">Your Name</label>
+                                                    </div>
+                                                    <div class="col-lg-9 col-md-8">
+                                                        <input type="text" class="form-control o_website_form_input" name="Name" required=""/>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row form-field o_website_form_required_custom">
+                                                    <div class="col-lg-3 col-md-4">
+                                                        <label class="col-form-label" for="email_from">Email</label>
+                                                    </div>
+                                                    <div class="col-lg-9 col-md-8">
+                                                        <input type="email" class="form-control o_website_form_input" name="email_from" required=""/>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row form-field o_website_form_required_custom">
+                                                    <div class="col-lg-3 col-md-4">
+                                                        <label class="col-form-label" for="subject">Subject</label>
+                                                    </div>
+                                                    <div class="col-lg-9 col-md-8">
+                                                        <input type="text" class="form-control o_website_form_input" name="subject" required=""/>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row form-field o_website_form_custom o_website_form_required_custom">
+                                                    <div class="col-lg-3 col-md-4">
+                                                        <label class="col-form-label" for="Description">Question</label>
+                                                    </div>
+                                                    <div class="col-lg-9 col-md-8">
+                                                        <textarea class="form-control o_website_form_input" name="Description" required=""/>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row form-field d-none">
+                                                    <div class="col-lg-3 col-md-4">
+                                                        <label class="col-form-label" for="email_to">Email To</label>
+                                                    </div>
+                                                    <div class="col-lg-9 col-md-8">
+                                                        <input type="hidden" class="form-control o_website_form_input" name="email_to" t-att-value="res_company.email"/>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <div class="offset-lg-3 offset-md-4 col-md-8 col-lg-9">
+                                                        <a href="#" class="btn btn-primary btn-lg o_website_form_send">Send</a>
+                                                        <span id="o_website_form_result"/>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </main>
+                            </div>
+                        </div>
+                        <footer class="tm-site-footer">
+                            <p class="tm-black-bg tm-footer-text">Copyright 2020 Wave Cafe
+
+                                | <a href="https://odoo-vn.com" class="tm-footer-link" rel="sponsored" target="_parent">Implement by KSG</a>
+                                | <a href="https://www.tooplate.com" class="tm-footer-link" rel="sponsored" target="_parent">Design by Tooplate</a></p>
+                        </footer>
+                    </div>
+
+                    <!-- Background video -->
+                    <div class="tm-video-wrapper">
+                        <i id="tm-video-control-button" class="fas fa-pause"></i>
+                        <video autoplay="" muted="" loop="" id="tm-video">
+                            <source src="/khangsg_website_cafe/static/src/video/wave-cafe-video-bg.mp4" type="video/mp4"/>
+                        </video>
+                    </div>
+                </t>
+
+            </t>
+        </field>
+    </record>
+</odoo>
