@@ -2,14 +2,13 @@
 {
     'name': 'Coffee Shop Website',
     'category': 'Website',
-    'author': 'khangnguyen16021990@gmail.com',
-    'description': 'https://odoo-vn.com',
+    'author': 'KhangSG Solutions',
+    'description': 'The module make the small coffee shop website for show and sale products online',
+    'live_test_url': 'https://cafe.odoo-vn.com',
     'depends': [
         'base',
         'product',
-        'sale',
         'sale_management',
-        'stock',
         'website',
         'website_blog',
         'website_search_blog',
@@ -32,6 +31,8 @@
         'static/src/xml/products.xml',
         'static/src/xml/product_detail.xml'
     ],
+    'images': ['static/description/banner.png'],
+    'license': 'AGPL-3',
     'installable': True,
     'application': False,
     'auto_install': False,
