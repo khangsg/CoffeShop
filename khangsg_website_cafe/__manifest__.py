@@ -5,6 +5,7 @@
     'author': 'KhangSG Solutions',
     'description': 'The module make the small coffee shop website for show and sale products online',
     'live_test_url': 'https://cafe.odoo-vn.com',
+    "website": "https://odoo-vn.com",
     'depends': [
         'base',
         'product',
